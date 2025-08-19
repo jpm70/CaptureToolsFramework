@@ -30,20 +30,12 @@ body {
 }
 
 .header-logo {
-    font-family: var(--font-mono);
-    font-size: 3rem;
-    font-weight: bold;
-    color: var(--logo-color);
-    text-shadow: 0 0 10px rgba(63, 185, 80, 0.5);
     margin-bottom: 0.5rem;
 }
 
-.logo-text {
-    animation: blink 1.5s steps(1, end) infinite;
-}
-
-@keyframes blink {
-    50% { opacity: 0; }
+.logo-image {
+    width: 80px; /* Ajusta este valor si necesitas un tamaño diferente */
+    height: auto;
 }
 
 .header-title {
@@ -127,7 +119,7 @@ body {
 
 @media (max-width: 768px) {
     .header-logo {
-        font-size: 2.5rem;
+        margin-bottom: 0.5rem;
     }
     
     .header-title {
